@@ -1,0 +1,26 @@
+{
+ "name": "qr-code",
+ "version": "1.0.0",
+ "description": "qr-code",
+ "main": "start.js",
+ "scripts": {
+  "start": "NODE_ENV=production node start.js",
+  "dev": "node start.js",
+  "nodemon": "nodemon start.js --ignore www/"
+ },
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/cyrillef/qr-code.git"
+ },
+ "author": "Cyrille Fauvel",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/cyrillef/qr-code/issues"
+ },
+ "homepage": "https://github.com/cyrillef/qr-code#readme",
+ "dependencies": {
+  "body-parser": "^1.17.2",
+  "express": "4.15.3",
+  "request": "^2.83.0"
+ }
+}
